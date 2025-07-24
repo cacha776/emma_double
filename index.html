@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -101,7 +100,16 @@
       <p>To <b>continue</b>, please click the <b>BLUE button BELOW</b>. After entering, slide down slowly, there is a word <b>OPEN</b>, enter directly and wait <b>150 seconds</b>, OK.</p>
     </div>
 
-    <a href="https://foaltax.com/dhrgese5?key=8671e9b5e0c5562202afd84fe5e9124f" class="btn">CONTINUE</a>
+    <!-- Tombol Continue -->
+    <a id="continueBtn" href="#" class="btn">CONTINUE</a>
+
+    <!-- Script Redirect ke blog -->
+    <script>
+      document.getElementById("continueBtn").addEventListener("click", function(e) {
+        e.preventDefault();
+        window.location.href = "https://resepmasakanbunda209.blogspot.com";
+      });
+    </script>
 
     <!-- Banner Iklan Adsterra (728x90) -->
     <div class="banner-container">
